@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "./btn.css";
+@import "./loadline.css";
+@import "./input.css";
+@import "./loader.css";
+
+a, p, ul, li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+body {
+    max-width: 320px;
+    margin: 0 auto;
+}
+h1 {
+    color: #fff;
+}
+.container-main {
+    background-color: #000;
+    height: 569px;
+}
+.nav-panel {
+    text-align: end;
+    padding: 15px;
+}
+.nav-panel img:hover {
+    cursor: pointer;
+}
+.list {
+    margin: 15px 0 0 15px;
+    text-align: left;
+}
+.list a:hover {
+    color: #F4CE0C;
+    text-decoration: underline;
+}
+.wrapper {
+    text-align: center;
+}
+
+header {
+    background-image: url("../jpeg/brain-bg.png");
+    max-width: 320px;
+    height: 569px;
+}
+header nav {
+    text-align: left;
+    padding: 15px;
+}
+header nav img {
+    cursor: pointer;
+}
+header .description p {
+    color: #F4CE0C;
+    padding: 10px;
+}
+header .description p span {
+    color: #fff;
+}
+header h1 span {
+    color: #F4CE0C;
+}
+header .make-test {
+    margin-top: 150px;
+}
+header .more-descr span {
+    color: #fff;
+}
+.main .notification {
+    background-image: url('../jpeg/background-shine.png');
+    height: 339px;
+}
+.main .notification p {
+    margin: 0 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.main .notification .hooks-up {
+    padding: 20px;
+    text-align: left;
+}
+.main .notification .hooks-down {
+    text-align: right;
+    padding: 20px;
+}
+.main .else {
+    height: 569px;
+    background-color: #fff;
+}
+.main .else p {
+    color: #000;
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+}
+.main .else img {
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    max-width: 320px;
+    height: 569px;
+    background-image: url('../jpeg/rainpng.png');
+}
+footer .title {
+    padding: 50px 20px;
+    margin-top: 0;
+}
+footer .title .yellow {
+    color: #FFC700;
+}
+footer .light {
+    position: absolute;
+}
+footer .top-light {
+    top: 20px;
+    right: 0;
+    transform: scale(-1, 1);
+}
+footer .bottom-light {
+    bottom: 30px;
+}
+footer .describe {
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: #f3f3f2bf;
+    border-radius: 20px;
+}
+footer .button {
+    margin-top: 50px;
+}
+footer .label {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 12px;
+}
+.test-wrapper {
+    max-width: 320px;
+    padding: 10px;
+    background-color: #181818;
+    border: 1px solid black;
+}
+.nav-lists {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+.nav-lists .brain img{
+    height: 46px;
+}
+.nav-lists span {
+    color: #FFC700;
+    font-weight: bold;
+}
+.nav-lists li {
+    margin: 3px;
+}
+.questions-wrapper {
+    background-image: url("../jpeg/rainpng.png");
+    height: 569px;
+    position: relative;
+}
+.questions-wrapper .question {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin: 10px 0;
+    font-family: 'Roboto';
+}
+.unswer {
+    padding: 10px 0;
+    margin: 20px 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #F2F3F3;
+    background-color: #bbb6b6a5;
+}
+.btn-submit {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -20%;
+    position: absolute;
+}
+.nav-list h1 {
+    color: #FFC700;
+    margin-left: 20px;
+}
+.repair {
+    text-align: left;
+    padding: 0;
+    margin-bottom: -5px;
+}
+.result-wrapper {
+    position: relative;
+}
+.result-wrapper h2, p {
+    color: #fff;
+    text-align: center;
+    padding: 0 5px 5px;
+}
+.result-wrapper h2 {
+    font-size: 18px;
+}
+.result-wrapper p {
+    font-size: 14px;
+}
+.result-subtitle p {
+    color: #3BDE7C;
+    font-size: 18px;
+    font-weight: 800;
+}
+.countDown {
+    font-size: 18px;
+    color: #EB1B00;
+}
+.result-more {
+    padding: 10px;
+    background-color: #1C2741;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.result-timer p {
+    color: #3BDE7C;
+    font-weight: 500;
+}
+.result-timer .timer {
+    color: #EB1B00;
+    font-size: 24px;
+    padding: 5px;
+}
+.result-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB1B00;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.light-left {
+    position: absolute;
+    bottom: 20px;
+    opacity: 0.3;
+}
+.light-right {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    transform: scale(-1, 1);
+    opacity: 0.3;
+}

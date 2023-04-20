@@ -1,0 +1,88 @@
+:root {
+    --form-control-color: rebeccapurple;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+label {
+    color: #fff;
+    font-size: 26px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+input[type="radio"] {
+    margin-right: 20px;
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+  }
+.form-control {
+    display: flex;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    background-color: #f2f3f332;
+    cursor: pointer;
+} 
+.form-control:hover {
+  background-color: #FFC700;
+}
+.form-control + .form-control {
+    margin-top: 1em;
+}
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+.form-control-image > input[type="radio"]{
+    visibility: hidden; 
+    position: absolute; 
+  }
+.form-control-image > input + img{
+    cursor:pointer;
+    border:2px solid transparent;
+  }
+.form-control-image > input:checked + img{
+    border:2px solid #fff;
+  }  
+.num {
+    padding: 15px;
+}
+.number {
+    padding: 7px;
+}
+.form-control-number > input[type="radio"]{
+    visibility: hidden; 
+    position: absolute; 
+  }
+.form-control-number > input + span{
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    cursor:pointer;
+    border:2px solid transparent;
+  }
+.form-control-number > input:checked + span{
+    border:4px solid #FFC700;
+  } 

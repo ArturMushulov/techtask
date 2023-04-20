@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+<body>
+    <div class="questions-wrapper">
+        <div class="test-wrapper">
+            <nav class="nav-test">
+                <ul class="nav-lists">
+                    <li class="nav-list"><img src="./assets/icons/menu.png" alt=""></li>
+                    <li class="nav-list brain"><img src="./assets/jpeg/brain.png" alt=""></li>
+                    <li class="nav-list"><span>ТЕСТ НА ОПРЕДЕЛЕНИЯ IQ</span></li>
+                </ul>
+            </nav>
+            <div class="progress-bar blue stripes">
+                <span style="width: 100%"></span>
+            </div>
+        </div>
+        <div class="loader"></div>
+        </div>
+    </div>
+    <script>
+        setTimeout(function() {
+            window.location.href = './result.html';
+            }, 3 * 1000);
+    </script>
+</body>
+</html>

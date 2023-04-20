@@ -1,0 +1,49 @@
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #6e6e6e;
+    transition: 300ms ease-in-out, color 300ms ease-in-out;
+    background: none;
+}
+.btn:hover {
+    color: #fff;
+}
+.btn-accept {
+    color: #000;
+    background: #FFC700;
+    padding: 5px 40px;
+    font-weight: 500;
+}
+.btn-transparent {
+    color: #fff;
+    border: 2px solid #fff;
+}
+.btn-transparent:hover {
+    color: #FFC700;
+    border: 2px solid #FFC700;
+}
+.btn-more {
+    padding: 0;
+    box-shadow: none;
+}
+.btn-deActive {
+    background: #DADADA;
+    padding: 5px 40px;
+}
+.btn-deActive a {
+    font-weight: 500;
+    color: #8E8E8E;
+}
+.btn-call {
+    background: transparent;
+    border: none;
+    z-index: 99;
+    cursor: pointer;
+}
